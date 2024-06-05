@@ -4,6 +4,6 @@ resource "aws_instance" "storeins3" {
     instance_type = "t2.micro"
   key_name = "my-keypair-01"
   tags = {
-    Name = "kk"
+    Name = "maga"
   }
 }
