@@ -1,5 +1,5 @@
 
-# Provider-1 for us-east-1 (Default Provider)
+# Provider-1 for ap-south-1 (Default Provider)
 
 provider "aws" {
     region = "ap-south-1"
