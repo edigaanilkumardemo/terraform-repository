@@ -4,6 +4,6 @@ resource "aws_instance" "local" {
     key_name = "my-keypair-01"
     user_data = file("userdata.sh")     # define your path and file name
     tags = {
-      Name = "userdata"
+      Name = "installation-process"
     }
 }
